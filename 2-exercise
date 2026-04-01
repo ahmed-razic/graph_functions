@@ -1,0 +1,41 @@
+#Exercise 1
+
+#Define a function
+f(x) = x**3 - 4*x**2 - 4*x + 16
+
+set terminal qt 0
+set title "Exercise 1 - a"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-1:1]
+set yrange [-5:5]
+plot f(x) with lines lw 2 lc rgb "blue" title "f(x) = x**3 - 4*x**2 - 4*x + 16"
+
+set terminal qt 1
+set title "Exercise 1 - b"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-3:3]
+set yrange [-10:10]
+plot f(x) with lines lw 2 lc rgb "red" title "f(x) = x**3 - 4*x**2 - 4*x + 16"
+
+set terminal qt 2
+set title "Exercise 1 - c"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-5:5]
+set yrange [-10:20]
+plot f(x) with lines lw 2 lc rgb "yellow" title "f(x) = x**3 - 4*x**2 - 4*x + 16"
+
+set terminal qt 3
+set title "Exercise 1 - d"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-20:20]
+set yrange [-100:100]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = x**3 - 4*x**2 - 4*x + 16"
+
+pause -1
+
+#EOF
+
