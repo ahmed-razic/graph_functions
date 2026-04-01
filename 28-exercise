@@ -1,0 +1,15 @@
+#Define a function
+f(x) = (1/10.0) * sin(x/10.0)
+
+set terminal qt 0
+set grid
+set xlabel "x"
+set ylabel "f(x)"
+
+set xrange [-20*pi:20*pi]
+set yrange [-0.125:0.125]
+
+plot f(x) with lines
+
+pause -1
+#EOF
