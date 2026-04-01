@@ -1,0 +1,41 @@
+#Exercise 4
+
+#Define a function
+f(x) = sqrt(5 + 4*x - x**2)
+
+set terminal qt 1
+set title "Exercise 4 - a"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-2:2]
+set yrange [-2:2]
+plot f(x) with lines lw 2 lc rgb "blue" title "f(x) = sqrt(5 + 4*x - x**2)"
+
+set terminal qt 2
+set title "Exercise 4 - b"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-2:6]
+set yrange [-1:4]
+plot f(x) with lines lw 2 lc rgb "red" title "f(x) = sqrt(5 + 4*x - x**2)"
+
+set terminal qt 3
+set title "Exercise 4 - c"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-3:7]
+set yrange [0:10]
+plot f(x) with lines lw 2 lc rgb "yellow" title "f(x) = sqrt(5 + 4*x - x**2)"
+
+set terminal qt 4
+set title "Exercise 4 - d"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-10:10]
+set yrange [-10:10]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = sqrt(5 + 4*x - x**2)"
+
+pause -1
+
+#EOF
+
