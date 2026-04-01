@@ -1,0 +1,17 @@
+#Exercise 8
+
+#Define a function
+f(x) = 4*x**3 - x**4
+
+set terminal qt 1
+set title "Exercise 8"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-100:100]
+#set yrange [-2:2]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = 4*x**3 - x**4"
+
+pause -1
+
+#EOF
+
