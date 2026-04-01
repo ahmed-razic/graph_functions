@@ -1,0 +1,17 @@
+#Exercise 9
+
+#Define a function
+f(x) = x * sqrt(9 - x**2)
+
+set terminal qt 1
+set title "Exercise 9"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-5:5]
+set yrange [-5:5]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = x * sqrt(9 - x**2)"
+
+pause -1
+
+#EOF
+
