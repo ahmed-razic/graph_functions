@@ -1,9 +1,8 @@
-#Exercise 12
+#Exercise 14
 
 #Define a function
-#f(x) = 2*x - 3*((x**2)**(1.0/3.0))
 
-f(x) = (x >= 0 ?  x**(1.0/3.0) : -((-x)**(1.0/3.0)))
+f(x) = ((x**2)**(1.0/3.0)) * (5 - x)
 
 set terminal qt 0
 set xlabel "x"
@@ -11,8 +10,8 @@ set ylabel "f(x)"
 set xtics 1
 set ytics 1
 set grid
-#set xrange [-10:10]
-#set yrange [-5:5]
+set xrange [-5:8]
+set yrange [-10:10]
 plot f(x) with lines
 
 pause -1
