@@ -1,0 +1,17 @@
+#Define a function
+f(x) = (x**2 - 3)/(x - 2)
+
+set terminal qt 0
+set grid
+set xtics 2
+set ytics 2
+set xlabel "x"
+set ylabel "f(x)"
+
+set xrange [-10:10]
+set yrange [-30:20]
+
+plot f(x) with lines
+
+pause -1
+#EOF

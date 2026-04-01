@@ -1,0 +1,17 @@
+#Define a function
+f(x) = (6*x**2 - 15*x + 6)/(4*x**2 - 10*x)
+
+set terminal qt 0
+set grid
+set xtics 2
+set ytics 2
+set xlabel "x"
+set ylabel "f(x)"
+
+set xrange [-5:5]
+set yrange [-25:20]
+
+plot f(x) with lines
+
+pause -1
+#EOF
