@@ -1,7 +1,4 @@
-#Exercise 17
-
 #Define a function
-
 f(x) = (x + 3)/(x + 2)
 
 set terminal qt 0

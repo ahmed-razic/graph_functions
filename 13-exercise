@@ -1,7 +1,4 @@
-#Exercise 13
-
 #Define a function
-
 f(x) = 5*((x**2)**(1.0/5.0)) - 2*x
 
 set terminal qt 0

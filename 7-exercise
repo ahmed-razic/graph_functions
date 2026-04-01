@@ -1,5 +1,3 @@
-#Exercise 7
-
 #Define a function
 f(x) = x**5 - 5*x**4 + 10
 

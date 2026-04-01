@@ -1,4 +1,3 @@
-#Exercise 18
 #Define a function
 f(x) = (x**2 - 1)/(x**2 + 1)
 

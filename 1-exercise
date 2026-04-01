@@ -1,5 +1,3 @@
-#Exercise 1
-
 #Define a function
 f(x) = x**4-7*x**2+6*x
 

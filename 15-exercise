@@ -1,7 +1,4 @@
-#Exercise 15
-
 #Define a function
-
 f(x) = abs(x**2 - 1)
 
 set terminal qt 0
