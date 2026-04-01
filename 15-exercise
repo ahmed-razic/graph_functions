@@ -1,0 +1,21 @@
+#Exercise 15
+
+#Define a function
+
+f(x) = abs(x**2 - 1)
+
+set terminal qt 0
+set xlabel "x"
+set ylabel "f(x)"
+set xtics 1
+set ytics 1
+set grid
+set xrange [-5:5]
+set yrange [0:10]
+plot f(x) with lines
+
+pause -1
+
+#EOF
+
+
