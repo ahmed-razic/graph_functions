@@ -7,14 +7,14 @@ f(x) = (x + 3)/(x + 2)
 set terminal qt 0
 
 set grid
-set xtics 1
-set ytics 1
+set xtics 2
+set ytics 2
 set xlabel "x"
 set ylabel "f(x)"
 set xrange [-10:10]
-set yrange [-10:10]
-set arrow from -10,0 to 10,0 lw 2 nohead
-set arrow from -0,-10 to 0,10 lw 2 nohead
+set yrange [-10:15]
+set arrow from -10,0 to 10,0 lw 1 nohead
+set arrow from 0,-10 to 0,15 lw 1 nohead
 plot f(x) with lines
 
 pause -1

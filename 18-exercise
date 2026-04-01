@@ -1,0 +1,20 @@
+#Exercise 18
+#Define a function
+f(x) = 1 - 1/(x + 3)
+
+set terminal qt 0
+set grid
+set xtics 2
+set ytics 2
+set xlabel "x"
+set ylabel "f(x)"
+
+set xrange [-12:8]
+set yrange [-15:12]
+set arrow from -12,0 to 8,0 lw 1 nohead
+set arrow from 0,-15 to 0,12 lw 1 nohead
+
+plot f(x) with lines
+
+pause -1
+#EOF
