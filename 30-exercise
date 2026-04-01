@@ -1,0 +1,16 @@
+#Define a function
+f(x) = x**2 + 0.02*cos(100*x)
+
+set terminal qt 0
+set grid
+set xlabel "x"
+set ylabel "f(x)"
+set size ratio -1
+
+set xrange [-pi/50:pi/50]
+set yrange [-0.05:0.05]
+
+plot f(x) with lines
+
+pause -1
+#EOF
