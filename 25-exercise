@@ -1,0 +1,17 @@
+#Define a function
+f(x) = sin(250*x)
+
+set terminal qt 0
+set grid
+set xtics 1
+set ytics 1
+set xlabel "x"
+set ylabel "f(x)"
+
+set xrange [-pi/125:pi/125]
+set yrange [-1.25:1.25]
+
+plot f(x) with lines
+
+pause -1
+#EOF
