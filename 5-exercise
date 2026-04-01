@@ -1,0 +1,17 @@
+#Exercise 5
+
+#Define a function
+f(x) = x**4 - 4*x**3 + 15
+
+set terminal qt 1
+set title "Exercise 5"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-1000:1000]
+#set yrange [-2:2]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = x**4 - 4*x**3 + 15"
+
+pause -1
+
+#EOF
+

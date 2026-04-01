@@ -1,0 +1,17 @@
+#Exercise 6
+
+#Define a function
+f(x) = (x**3)/3 - (x**2)/2 -2*x + 1
+
+set terminal qt 1
+set title "Exercise 6"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-100:100]
+#set yrange [-2:2]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = (x**3)/3 - (x**2)/2 -2*x + 1"
+
+pause -1
+
+#EOF
+
