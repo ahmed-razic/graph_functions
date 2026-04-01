@@ -1,0 +1,49 @@
+#Exercise 1
+
+#Define a function
+f(x) = 5 + 12*8 - x**3
+
+set terminal qt 0
+set title "Exercise 3 - a"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-1:1]
+set yrange [-1:1]
+plot f(x) with lines lw 2 lc rgb "blue" title "f(x) = 5 + 12*8 - x**3"
+
+set terminal qt 1
+set title "Exercise 3 - b"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-5:5]
+set yrange [-10:10]
+plot f(x) with lines lw 2 lc rgb "red" title "f(x) = 5 + 12*8 - x**3"
+
+set terminal qt 2
+set title "Exercise 3 - c"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-4:4]
+set yrange [-20:20]
+plot f(x) with lines lw 2 lc rgb "yellow" title "f(x) = 5 + 12*8 - x**3"
+
+set terminal qt 3
+set title "Exercise 3 - d"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-4:5]
+set yrange [-15:25]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = 5 + 12*8 - x**3"
+
+set terminal qt 4
+set title "Exercise 3 - d"
+set xlabel "x"
+set ylabel "f(x)"
+set xrange [-1000:1000]
+set yrange [-1000:1000]
+plot f(x) with lines lw 2 lc rgb "green" title "f(x) = 5 + 12*8 - x**3"
+
+pause -1
+
+#EOF
+
