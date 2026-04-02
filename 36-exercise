@@ -1,0 +1,15 @@
+#Define a function
+f(x) = (sin(x))**3
+
+set terminal qt 1
+set grid
+set xlabel "x"
+set ylabel "sin(x)^3"
+set xrange [0:4*pi]
+set yrange [-1.2:1.2]
+set size square
+
+plot f(x) with lines
+
+pause -1
+#EOF
