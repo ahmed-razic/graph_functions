@@ -4,8 +4,8 @@ f(x) = sin(2*x) + cos(3*x)
 set terminal qt 1
 set grid
 set xlabel "x"
-set ylabel "-tan(2x)"
-set xrange [-pi/10:2*pi-pi/10]
+set ylabel "sin2x + cos3x"
+set xrange [-pi/10:4*pi-pi/10]
 set yrange [-2:2]
 set size square
 
